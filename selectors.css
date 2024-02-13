@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.header{
+    background-color: gold;
+    font-size:xx-large;
+    text-align: center;
+    
+}
+
+.product-mainblock{
+    height:500px;
+    width: 100vw;
+    border: 2px solid red;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+/*descendent selector*/
+
+.product-mainblock .product{
+    height: 400px;
+    width:350px;
+    border: 2px solid black;
+    background-color: rgb(197, 148, 224);
+    animation: cardcolourChange;
+    animation-delay: 1s;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cardcolourChange{
+    10%{
+        background-color: red;
+        margin-left: 80px;
+    }
+
+    50%{
+        background-color: blueviolet;
+        transform: skew(45deg);
+    }
+    80%{
+        background-color: aquamarine;
+        margin-right: 50px;
+    }
+    100%{
+        background-color: brown;
+    }
+}
+.product-mainblock .product>img{
+    margin-left: 70px;
+   margin-top: 20px;
+   
+}
+
+.product-mainblock .product>h1,p{
+    color: rgb(2, 16, 16);
+    font-size: xx-large;
+    text-align: center;
+}
+
+.product-mainblock .product>.sbtn{
+    height: 45px;
+    width: 150px;
+    background-color:rgb(249, 197, 225);
+    color: aliceblue;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.product-mainblock .product>.sbtn>a{
+    text-decoration: none;
+    color: aliceblue;
+}

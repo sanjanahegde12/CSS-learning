@@ -1,0 +1,49 @@
+.main-block{
+    height: 550px;
+    width: 500px;
+    border: 4px solid rgb(186, 138, 186) ;
+    border-radius: 25px;
+    background-color: rgb(230, 155, 190);
+    margin-top: 50px;
+    align-content: center;
+    text-shadow: 3px 3px 6px rgb(221, 35, 66);
+    box-shadow: 7px 7px 7px rgb(137, 52, 66);
+}
+
+img{
+    margin-left: auto;
+    margin-top: 25px;
+    border-radius: 100%;
+}
+
+#name{
+    color: rgb(86, 17, 86);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300px;
+    font-size: 30px;
+    text-decoration:wavy;
+}
+
+#Designation{
+    color: rgb(86, 17, 86);
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-decoration:underline;
+
+}
+
+.icon-block{
+    height:50px;
+    width: 300px;
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#icon{
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: rgb(141, 40, 152);
+}

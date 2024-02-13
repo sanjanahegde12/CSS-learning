@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.task{
+    height: 50vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.face-block{
+    height: 600px;
+    width: 600px;
+    background-color: yellow;
+    border-radius: 100%;
+    
+}
+
+
+.face-block .eyes{
+    height: 250px;
+    width: 600px;
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.face-block .eyes>.eye1{
+    height: 80px;
+    width: 82px;
+    background-color: white;
+    border-radius: 45px;
+    transition-delay: 1s;
+    transition-duration: 15s;
+}
+.face-block .eyes>.eye1:hover{
+    transform: rotate(5200deg);
+    
+}
+
+.face-block .eyes>.eye1>.eyeball{
+    height: 40px;
+    width: 35px;
+    border-radius: 100%;
+    background-color: black;
+    margin-top: 34px;
+    margin-left: 40px;
+}
+
+.face-block .eyes>.eye2{
+    height: 80px;
+    width: 82px;
+    background-color: white;
+    border-radius: 45px;
+    transition-delay: 1s;
+    transition-duration: 15s;
+}
+
+.face-block .eyes>.eye2:hover{
+    transform: rotate(5200deg);
+    
+}
+
+.face-block .eyes>.eye2>.eyeball{
+    height: 40px;
+    width: 35px;
+    border-radius: 100%;
+    background-color: black;
+    margin-top: 34px;
+    margin-left: 40px;
+}
+
+.face-block .nose{
+    height:150px;
+    width:600px ;
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.face-block .nose>.structure{
+    height: 90px;
+    width: 90px;
+    border-radius: 52px 52px 76px 76px;
+    background-color: red;
+}
+
+.face-block .mouth{
+    height:190px;
+    width:600px ;
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.face-block .mouth>.smile{
+    height: 130px;
+    width: 300px;
+    border: 2px solid;
+    background-color: white;
+    border-radius: 0px 0px 113px 130px;
+}
+
+.stick{
+    height: 300px;
+    width: 30px;
+    background-color: black;
+    margin-left: 958px;
+    margin-top: -180px;
+}

@@ -1,0 +1,61 @@
+.main-block{
+    height:600px;
+    width:500px;
+    border:2px solid red;
+    background-color:  rgb(25, 25, 78);
+    margin-left:200px;
+    margin-top:100px;
+    text-shadow: 3px 3px 4px #f0ecef;
+    box-shadow: 21px 21px 4px  rgb(243, 170, 182);
+}
+img{
+    margin-left:50px ;
+    margin-top: 45px;
+    border-radius: 100%;
+}
+
+
+#name{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: 900px;
+}
+
+#designation{
+    color:antiquewhite;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-decoration: overline;
+}
+
+.icon-block{
+    /*border:2px solid white;*/
+    height:50px;
+    width:300px;
+    margin:auto;
+    display:flex;
+    justify-content: space-around;
+}
+
+#icon{
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: antiquewhite;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

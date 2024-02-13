@@ -1,0 +1,338 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.nav-mainblock{
+    background-color: black;
+    height: 82px;
+    display: flex;
+}
+
+.nav-mainblock .logo-block{
+    height:80px;
+    width: 15%;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.nav-mainblock .links{
+    height: 80px;
+    width: 45%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    
+}
+
+.nav-mainblock .links>a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.nav-mainblock .links>a:hover{
+    color: yellow;
+    text-decoration: overline;
+}
+
+.nav-mainblock .login{
+    height:80px;
+    width:15%;
+    /* border: 2px solid white;  */
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-mainblock .login .iconbox{
+    height:65%;
+    width: 65%;
+    margin-top:12px;
+    border: 3px solid white;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 100%;
+    align-items: center;
+}
+
+.nav-mainblock .login .iconbox>i{
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.nav-mainblock .media{
+    height: 60px;
+    width: 20%;
+    /* border: 2px solid white;  */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 12px;
+}
+
+.nav-mainblock .media>.drop{
+    height: 150px;
+    width:200px;
+    background-color:grey;
+    border-radius: 15px;
+    color: azure;
+    font-size: x-large;
+    display: none;
+    padding-top: 50px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+#call{
+    position: relative;
+}
+/*adjecent/ immidiate  sibling selector*/
+#call:hover+.drop{
+    display: block;
+    position: absolute;
+    top:70px;
+    right: 20px;
+}
+
+.drop>p{
+
+}
+.nav-mainblock .media>i{
+    font-size: 30px;
+    color: aliceblue;
+
+}
+
+.aside-block{
+    height: 750px;
+    width: 350px;
+    /* border: 2px solid red; */
+}
+
+.aside-block>iframe{
+    height: 990px;
+    width: 350px;
+    background-color: rgb(34, 34, 95);
+}
+
+.content-block{
+    height: 600px;
+    width: 1165px;
+    border: 2px solid red;
+    margin-left: 350px;
+    margin-top: -750px;
+}
+
+.content-block>img{
+    height:600px;
+     width:1165px;
+     filter:grayscale();
+}
+
+.content-block p{
+    position: absolute;
+    top:603px ;
+    bottom:10px;
+    right:5px ;
+    left:409px;
+    font-size:70px ;
+    font-weight: bold;
+    color: burlywood;
+    text-align:justify;
+}
+
+.content-block .cbtn{
+    position: absolute;
+    top: 546px;
+    left: 396px;
+    height: 45px;
+    width: 250px;
+    color: black;
+    font-size: xx-large;
+    background-color: white;
+    border: none;
+    border-left:10px solid aqua;
+    
+
+}
+
+.content-block .cbtn:hover{
+    background-color: aqua;
+    box-shadow: 4px 6px 8px rgb(255, 255, 255);
+    color: rgb(19, 2, 2);
+}
+
+.content-block2{
+    height: 387px;
+    width: 1168px;
+    margin-top: 0px;
+    margin-left: 350px;
+    color: rgb(196, 117, 57);
+    background-color: blueviolet;
+}
+
+.content-block2>p{
+    color: white;
+    font-size:medium;
+    width: 1000px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.content-block2>p::selection{
+    background-color: gold;
+    color: red;
+    /* user-select: none; */
+}
+
+.content-block2>p::first-line{
+    font-style: italic;
+    color: aqua;
+    font-size: medium;
+    
+}
+
+.content-block2>p::first-letter{
+    font-size: 60px;
+    font-family:cursive;
+    color: aquamarine;
+}
+
+.content-block2>p::before{
+    content: url(../asserts/download.jpg);
+} 
+
+.messageicon{
+    height: 80px;
+    width: 80px;
+    background-color: aquamarine;
+    margin-left: 1426px;
+    margin-top: -204px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 100%;
+    
+}
+
+.messageicon>i{
+    font-size: 40px;
+    color: white;
+}
+
+.footer-block{
+    height: 500px;
+    background-color: black;
+    border: 3px solid red;
+    margin-top: 124px;
+    display: flex;
+}
+
+.footer-block>.qr{
+    width: 40%;
+    height: 500px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-block>.qr>h1{
+    color: aliceblue;
+}
+
+.footer-block>.link{
+    width: 40%;
+    height: 500px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-block>.link>.info{
+    height: 500px;
+    width: 250px;
+    border: 2px solid white;
+    color: white;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-block>.link>.info>.infoheader{
+    color:rgb(241, 133, 151);
+    font-size: 30px;
+    border-top: 5px solid rgb(240, 28, 229);
+}
+
+.footer-block>.link>.info>ul>li>a{
+    font-size:x-large;
+    color: white;
+    font-size:x-large;
+    text-decoration:none;
+}
+
+
+.footer-block>.link>.qlinks{
+    height: 500px;
+    width: 250px;
+    border: 2px solid white;
+    color: white;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-block>.link>.qlinks>.qlinkheader{
+    color:rgb(241, 133, 151);
+    font-size: 30px;
+    border-top: 5px solid rgb(240, 28, 229);
+}
+
+.footer-block>.link>.qlinks>ul>li>a{
+    font-size:x-large;
+    color: white;
+    font-size:x-large;
+    text-decoration:none;
+
+}
+
+.footer-block>.map{
+    width: 40%;
+    height: 500px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-block>.map>form>#email{
+    height: 30px;
+    background-color: lightblue;
+    width: 350px;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+}
+
+.footer-block>.map>form>#email:focus{
+    outline: none;
+    background-color: white;
+    border-bottom: 5px solid blue;
+    color: blue;
+    font-size: x-large;
+}
+
+.footer-block>.map>form>.sbtn{
+    height: 30px;
+    background-color: red;
+    width: 75px;
+    font-size:medium;
+    font-weight: bold;
+    color: white;
+    border-radius: 30%;
+}
